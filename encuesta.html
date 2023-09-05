@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+  body {
+
+  background-image: url(A3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+</style>
+<head>
+    <title>Encuesta sobre Redes Sociales</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            margin-left: 1px;
+            margin-right: 10px;
+        }
+
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encuesta sobre Redes Sociales</h1>
+    <form action="procesar_encuesta.php" method="post">
+        <label>1.¿cual es tu epoca preferida para viajar?</label>
+        <input type="text" name="pregunta1">
+
+        <label>2.que lugar te gustaria conocers </label>
+        <input type="text" name="pregunta2">
+
+        <label>3. que pais te fasina</label>
+        <input type="text" name="pregunta3">
+
+        <label>4.que no te puede faltar en un viaje</label>
+        <input type="text" name="pregunta4">
+
+        <label>5.que actividades te gustaria hacer en un viaje</label>
+        <input type="text" name="pregunta5">
+
+        <label>6.que es lo que mas aprecias en un viaje</label>
+        <input type="text" name="pregunta6">
+
+        <label>7. que es lo que mas odias en un viaje</label>
+        <input type="text" name="pregunta7">
+
+        <label>8.viajas mucho</label>
+        <input type="text" name="pregunta8">
+
+        <center><input type="submit" value="Enviar Encuesta"></center>
+    </form>
+</body>
+</html>
